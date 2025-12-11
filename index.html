@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cdndoge</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <link id="favicon" rel="icon" type="image/png" href="">
+</head>
+<body>
+    <!-- Click-to-enter overlay -->
+    <div id="enter-screen">
+        <div class="enter-content">
+            <h1>Click to enter...</h1>
+        </div>
+    </div>
+
+    <audio id="bg-music" src="/static/music.mp3" loop></audio>
+
+    <div id="main-content" class="hidden">
+        <header>
+            <div class="profile fade-in">
+                <img id="avatar" src="" alt="Profile Picture">
+                <div class="user-info">
+                    <h1 id="username">Loading...</h1>
+                    <p class="quote">“You don't reason with intellectuals. You shoot them." - Napoleon</p>
+                    <div class="status-container">
+                        <span class="status-dot" id="status-dot"></span>
+                        <span id="status-text">Offline</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="fade-in">
+            <!-- Projects Section -->
+            <section class="projects">
+                <h2><span class="blue-bar"></span>Associate of...</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <h3>Water</h3>
+                        <p>Well known drinker, I have been declared a wateraholic in all 50 states.</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Etogamez</h3>
+                        <p>A friend and acquaintance, The person who made this website.</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>OfficerJohn43</h3>
+                        <p>Member of OfficerJohn43's recording crew.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Servers Section -->
+            <section class="servers">
+                <h2><span class="blue-bar"></span>Servers</h2>
+                <div class="server-grid">
+                    <div class="server-card">
+                        <h3>Connecticut State Roleplay</h3>
+                        <p>ER:LC Roleplay Server, Founder and Current Manager</p>
+                        <a href="https://discord.gg/PRdZU2vFQ4" class="join-btn">Join Server</a>
+                    </div>
+                    <div class="server-card">
+                        <h3>Compton Roleplay 2</h3>
+                        <p>Accurate representation of Southern LA (Yes, Southern LA, Not Compton)</p>
+                        <a href="https://discord.gg/crp2" class="join-btn">Join Server</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
