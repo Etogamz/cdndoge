@@ -1,0 +1,39 @@
+# === SECURITY ===
+config.json
+
+# === PYTHON CACHE ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# === ENVIRONMENTS ===
+.env
+.venv/
+venv/
+ENV/
+env/
+
+# === EDITORS ===
+# VSCode
+.vscode/
+.code-workspace
+
+# PyCharm
+.idea/
+
+# === GITHUB CODESPACES ===
+.devcontainer/
+*.code-workspace
+
+# === OS JUNK ===
+.DS_Store
+Thumbs.db
+
+# === LOGS ===
+*.log
+
+# === BUILD ARTIFACTS ===
+dist/
+build/
+*.egg-info/

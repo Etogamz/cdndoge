@@ -1,2 +1,0 @@
-# cdndoge
-test
